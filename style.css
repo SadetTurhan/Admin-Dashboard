@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+}
+
+.sidebar {
+    grid-area: sidebar;
+  }
+header{
+    grid-area: header;
+  }
+main {
+    grid-area: main;
+  }
+
+.container {
+    display: grid;
+    grid-template-columns: 300px 150px 150px 150px;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "sidebar header header header"
+      "sidebar main main main"
+      "sidebar main main main";
+}
+
+.sidebar{
+    width: 20vw;
+    height: 100vh;
+    background-color: rgb(100,0,0);
+}
+
+header{
+    width: 80vw;
+    height:20vh;
+    background-color: aqua;
+    margin-left: 4.4vw;
+}
+
+main{
+    width: 80vw;
+    height: 80vh;
+    background-color: green;
+    margin-left: 4.4vw;
+}
+
+.sidebar{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 20vh 40vh 30vh;
+    grid-template-areas: "dashboard"
+        "first-row"
+        "second-row";
+}
