@@ -30,6 +30,7 @@ main {
     width: 25vw;
     height: 100vh;
     background-color: rgb(192, 252, 166);
+    color: rgb(0, 0, 0);
 }
 
 header{
@@ -68,8 +69,8 @@ main{
   margin-right: 30px;
   border-radius: 2mm;
   border-color: white;
-  border: 2px solid black;
-  border-radius: 5px;
+  border: 1px solid black;
+  border-radius: 5%;
   background-color: #fff9db;
   padding: 1em;
 }
@@ -78,8 +79,8 @@ main{
   margin-right: 30px;
   border-radius: 2mm;
   border-color: black;
-  border: 2px solid black;
-  border-radius: 5px;
+  border: 1px solid black;
+  border-radius: 5%;
   background-color: #fff9db;
   padding: 1em;
 }
@@ -92,7 +93,7 @@ main{
   border-radius: 2mm;
   border-color: black;
   border: 2px solid black;
-  border-radius: 5px;
+  border-radius: 5%;
   background-color: #fff9db;
   padding: 1em;
 }
@@ -103,12 +104,13 @@ main{
   border-radius: 2mm;
   border-color: black;
   border: 2px solid black;
-  border-radius: 5px;
+  border-radius: 5%;
   background-color: #fff9db;
   padding: 1em;
 }
 .m-headline{
   grid-area: m-headline;
+  font-size: 20px;
 }
 .main-left2{
   grid-area: main-left2;
@@ -116,7 +118,7 @@ main{
   border-radius: 2mm;
   border-color: black;
   border: 2px solid black;
-  border-radius: 5px;
+  border-radius: 5%;
   background-color: #fff9db;
   padding: 1em;
 }
@@ -126,7 +128,7 @@ main{
   border-radius: 2mm;
   border-color: black;
   border: 2px solid black;
-  border-radius: 5px;
+  border-radius: 5%;
   background-color: #fff9db;
   padding: 1em;
 }
@@ -138,7 +140,7 @@ main{
   border-radius: 2mm;
   border-color: black;
   border: 2px solid black;
-  border-radius: 5px;
+  border-radius: 5%;
   background-color: #fff9db;
   padding: 1em;
 }
@@ -149,7 +151,7 @@ main{
   border-radius: 2mm;
   border-color: black;
   border: 2px solid black;
-  border-radius: 5px;
+  border-radius: 5%;
   background-color: #fff9db;
   padding: 1em;
 }
@@ -238,6 +240,7 @@ p{
 .down-navbar{
   margin-top: 4vh;
   grid-area: down-navbar;
+  font-size: 20px;
 }
 
 .right-navbar{
@@ -258,11 +261,12 @@ p{
 
 .three-boxes{
   margin-left: 10vw;
-  border: 5px;
+  border: 1px;
   margin-top: 5vh;
-  width:4vw;
+  width: 400px;
   border-radius: 8%;
   height: 40px;
-  background-color: red;
+  background-color: lime;
+  color: purple;
 }
 
