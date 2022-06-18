@@ -29,29 +29,30 @@ main {
 .sidebar{
     width: 25vw;
     height: 100vh;
-    background-color: rgb(192, 252, 166);
-    color: rgb(0, 0, 0);
+    background-color: rgb(94, 158, 65);
+    color: rgb(23, 4, 29);
 }
 
 header{
     width: 80vw;
     height:20vh;
-    background-color: rgb(241, 241, 241);
+    background-color: rgb(208, 236, 195);
     margin-left: 4.4vw;
 }
 
 main{
     width: 80vw;
     height: 80vh;
-    background-color: rgb(230, 254, 220);
+    background-color: rgb(209, 241, 194);
     margin-left: 4.4vw;
 }
 
 .sidebar{
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 20vh 30vh 10vh;
-    grid-template-areas: "dashboard"
+    grid-template-rows: 20vh 20vh 20vh;
+    grid-template-areas: 
+        "dashboard"
         "first-row"
         "second-row";
 }
@@ -168,18 +169,23 @@ main{
 
 .dashboard{
   font-size: 35px;
-  margin-top: 2vh;
+  margin-top: 8vh;
   margin-left: 2vw;
 }
 
 .first-row{
   font-size: 20px;
   margin-left: 2vw;
+  margin-bottom: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
 }
 
 .second-row{
   font-size: 20px;
   margin-left: 2vw;
+  margin-top: 16vh;
 }
 
 p{
@@ -196,7 +202,7 @@ p{
 
 .searchTerm {
   width: 100%;
-  border: 3px solid #00B4CC;
+  border: 3px solid rgb(94, 158, 65);
   border-right: none;
   padding: 5px;
   height: 20px;
@@ -207,14 +213,14 @@ p{
 }
 
 .searchTerm:focus{
-  color: #00B4CC;
+  color: rgb(94, 158, 65);
 }
 
 .searchButton {
   width: 40px;
   height: 36px;
-  border: 1px solid #00B4CC;
-  background: #00B4CC;
+  border: 1px solid rgb(94, 158, 65);
+  background: rgb(94, 158, 65);
   text-align: center;
   color: #fff;
   border-radius: 0 5px 5px 0;
@@ -254,8 +260,9 @@ p{
 .right-down-nav{
   grid-area: right-down-nav;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  flex: 0 1 50px;
+  margin: -25px;
+  margin-left: 100px;
 }
 
 
@@ -263,10 +270,21 @@ p{
   margin-left: 10vw;
   border: 1px;
   margin-top: 5vh;
-  width: 400px;
+  width: 800px;
   border-radius: 8%;
   height: 40px;
-  background-color: lime;
-  color: purple;
+  background-color: rgb(94, 158, 65);
+  color: rgb(23, 4, 29);
+  flex: 0 0 50px;
+
 }
 
+.first-box{
+  grid-template-rows: 10vh 10vh 10vh;
+}
+
+.menu{
+  width: 2vw;
+  height: 4vh;
+  margin-right: 1vw;
+}
