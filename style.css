@@ -288,3 +288,8 @@ p{
   height: 4vh;
   margin-right: 1vw;
 }
+
+.second-box{
+  display: grid;
+  grid-template-rows: 10vh 8vh 10vh;
+}
